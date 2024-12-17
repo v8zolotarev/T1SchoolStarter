@@ -20,7 +20,7 @@ public class LoggingAspect {
 
     private boolean isLoggable(LoggingLevel level) {
         return loggerProperties.isEnabled() &&
-                level.ordinal() >= loggerProperties.getLevel().ordinal();  // Сравниваем уровни
+                level.ordinal() >= loggerProperties.getLevel().ordinal();
     }
 
     private void logMessage(LoggingLevel logLevel, String message, Object... args) {

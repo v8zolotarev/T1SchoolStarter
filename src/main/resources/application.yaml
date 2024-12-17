@@ -1,0 +1,4 @@
+aspect:
+  logger:
+    enabled: true
+    level: DEBUG
